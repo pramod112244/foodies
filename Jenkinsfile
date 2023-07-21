@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    stages{
+    stages {
         stage('checkout scm') {
             step {
                 echo 'pulling code from git repository'
